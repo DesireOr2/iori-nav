@@ -6,6 +6,7 @@
     "prepare": "husky",
     "dev": "wrangler pages dev",
     "version": "node scripts/update-versions.js",
+    "changelog": "node scripts/update-changelog.js",
     "build:css": "npx tailwindcss -i ./public/css/tailwind.css -o ./public/css/tailwind.min.css --minify",
     "dev:css": "npx tailwindcss -i ./public/css/tailwind.css -o ./public/css/tailwind.min.css --watch"
   },
